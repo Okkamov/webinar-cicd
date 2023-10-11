@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 
 set(PATCH_VERSION "1" CACHE INTERNAL "Patch version")
 set(PROJECT_VESRION 3.14.${PATCH_VERSION})
-set(MY_PROJECT_NAME heloworld)
+set(MY_PROJECT_NAME helloworld)
 set(EXEC_FILE_NAME helloworld_cli)
 
 project(${MY_PROJECT_NAME} VERSION ${PROJECT_VESRION})
